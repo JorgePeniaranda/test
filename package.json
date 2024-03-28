@@ -1,0 +1,16 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node ./out/index.js",
+    "start:dev": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "eslint-config-love": "43.1.0",
+    "nodemon": "3.1.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.3"
+  }
+}
