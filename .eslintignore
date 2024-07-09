@@ -1,0 +1,9 @@
+# Compiled source
+node_modules/**/*
+out/**/*
+
+# Saved Code
+saves/**/*
+
+# Config files
+eslintrc.js
