@@ -1,6 +1,8 @@
 {
   "name": "playground",
   "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
   "scripts": {
     "start": "node ./out/index.js",
     "start:dev": "ts-node index.ts",
@@ -12,5 +14,14 @@
     "nodemon": "3.1.0",
     "ts-node": "10.9.2",
     "typescript": "5.4.3"
+  },
+  "eslintConfig": {
+    "extends": "love",
+    "parserOptions": {
+      "project": "tsconfig.json",
+      "sourceType": "module",
+      "ecmaVersion": 2015 
+    },
+    "ignorePatterns": [".eslintrc.js", "node_modules/**/*", "out/**/*", "saves/**/*"]
   }
 }
