@@ -6,4 +6,4 @@ out/**/*
 saves/**/*
 
 # Config files
-eslintrc.js
+eslint.config.cjs
