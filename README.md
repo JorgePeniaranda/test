@@ -1,5 +1,4 @@
-<h1 style="text-align: center; line-height: 0.5;">Playground</h1>
-<hr style="font-size:1px"></hr>
+<h1 align="center">Playground</h1>
 
 ## Descripción
 
