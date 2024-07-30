@@ -1,1 +1,5 @@
-console.log('¡Hola Mundo!')
+export function main() {
+  console.log('¡Hola Mundo!');
+}
+
+main();
