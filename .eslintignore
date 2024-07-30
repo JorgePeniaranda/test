@@ -7,3 +7,6 @@ saves/**/*
 
 # Config files
 eslint.config.cjs
+
+# test coverage
+coverage/**/*
