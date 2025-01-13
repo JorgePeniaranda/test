@@ -97,15 +97,15 @@ Estos son los scripts disponibles en el proyecto:
 
 - `format`: Formatea todo el código usando Prettier.
 
-    ```sh
-    npm run format
-    ```
+  ```sh
+  npm run format
+  ```
 
 - `format:check`: Verifica el formato del código usando Prettier.
 
-    ```sh
-    npm run format:check
-    ```
+  ```sh
+  npm run format:check
+  ```
 
 - `test`: Comando por defecto para pruebas (actualmente no configurado).
 
